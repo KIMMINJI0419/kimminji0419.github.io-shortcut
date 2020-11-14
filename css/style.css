@@ -467,10 +467,10 @@ header ul li a:hover {
 }
 
 
-@media screen and (min-width:320px) and (max-width:768px) {
+@media screen and (min-width:280px) and (max-width:1024px) {
     #wrap {display: none;}
     .m-header {
-        background-color: #FF4D3F;
+        background-color: #FF4D42;
         top: 0; 
         left: 0; 
         position: fixed; 
@@ -598,5 +598,21 @@ header ul li a:hover {
 }
 .nav .menu li a:hover {
     color:#00BECA;
+}
+.m-main {
+    width: 100%; 
+    height: auto;
+}
+#m-main_vid{
+    top:0; 
+    right: 0;
+    min-width: 100%; 
+    min-height: 100%; 
+    width: 100%; 
+    height: auto; 
+    z-index: -100; 
+    background-size: cover;
+    overflow: hidden;
+    align-items: center;
 }
 }
