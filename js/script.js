@@ -35,7 +35,7 @@ var mySwiper = new Swiper('.first', {
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
-    },
+    }
   })
 
 var mySwiper1 = new Swiper('.second', {
@@ -47,29 +47,14 @@ var mySwiper1 = new Swiper('.second', {
     navigation: {
       nextEl: '.se_btn_n',
       prevEl: '.se_btn_p',
-    },
+    }
   })  
 
-  $(window).scroll(function() {
-  
-    var $window = $(window),
-        $panel = $('.actor_e');
-    
-    
-    var scroll = $window.scrollTop() + ($window.height() / 3);
-   
-    $panel.each(function () {
-      var $this = $(this);
-      
-      
-      if ($this.position().top <= scroll && $this.position().top + $this.height() > scroll) {
-            
-        $panel.removeClass(function (index, css) {
-          return (css.match (/(^|\s)color-\S+/g) || []).join(' ');
-        });
-        
-        $panel.addClass('color-' + $(this).data('color'));
-      }
-    });    
-    
-  })
+var mySwiper2 = new Swiper('.third', {
+    direction: 'horizontal',
+    loop: false,
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    }
+  })  

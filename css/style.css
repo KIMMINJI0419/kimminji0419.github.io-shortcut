@@ -147,7 +147,7 @@ header ul li a:hover {
     line-height: 35px;
 }
 
-#actor {background-image: url(../img/background_a.png); width: 100%;height: 100vh; background-repeat: no-repeat;background-size: cover;background-attachment: fixed;}
+#actor {background-image: url(../img/background_a.png); width: 100%;height: 900px; background-repeat: no-repeat;background-size: cover;background-attachment: fixed;}
 .back_content {font-family: 'Noto Sans KR', sans-serif; height: 200px;}
 .back_title {font-family: 'Inter', sans-serif;color: #ffffff;font-weight:500;font-size: 20px; padding-top:70px;margin-left: 160px;position: sticky;}
 
@@ -309,13 +309,14 @@ header ul li a:hover {
 #logo_d p {font-family: 'Noto Sans KR', sans-serif;font-size: 18px;color: #7A7979;font-weight: 400;padding-top:70px; margin-left: 350px;line-height:24px;position:absolute;}
 #logo_vid{position:absolute;min-width: 100%; min-height: 100%; width: 100%; height: 100vh; z-index: -100; background-size: cover;overflow: hidden;align-items: center;}
 
-#icon {width: 100%; height: 900px;background-color: #00BECA;}
-#icon_title {font-family: 'Inter', sans-serif;color: #ffffff;font-weight:500;font-size: 20px; padding-top:70px;margin-left: 160px;position: absolute;}
-#icon p {font-family: 'Noto Sans KR', sans-serif;font-size: 18px;color: #ffffff;font-weight: 400;padding-top:70px; margin-left: 350px;line-height:24px;position:absolute;}
+#icon {width: 100%; height: 900px;background-color: #00BFCA;}
+#icon_title {z-index: 100; font-family: 'Inter', sans-serif;color: #ffffff;font-weight:500;font-size: 20px; padding-top:70px;margin-left: 160px;position: absolute;}
+#icon p {z-index: 100;font-family: 'Noto Sans KR', sans-serif;font-size: 18px;color: #ffffff;font-weight: 400;padding-top:70px; margin-left: 350px;line-height:24px;position:absolute;}
 #iconall {width: 100%;text-align: center;}
 #iconall img {height: 850px; width: auto;margin-left: auto;margin-right: auto;}
 
-#element {width: 100%; height: 100vh;background-image: url('../img/designel.png');background-repeat: no-repeat;background-size: cover;background-attachment: fixed;}
+#element {width: 100%; height: 170px;}
+#d-element {width: 100%; height: 700px;background-image: url('../img/designel.png');background-repeat: no-repeat;background-size: cover;background-attachment: fixed;}
 #element_title {font-family: 'Inter', sans-serif;color: #7A7979;font-weight:500;font-size: 20px; padding-top:70px;margin-left: 160px;position: absolute;}
 #element p {font-family: 'Noto Sans KR', sans-serif;font-size: 18px;color: #7A7979;font-weight: 400;padding-top:70px; margin-left: 350px;line-height:24px;position:absolute;}
 
@@ -325,7 +326,7 @@ header ul li a:hover {
 #mainpage_title {font-family: 'Inter', sans-serif;color: #c4c4c4;font-weight:500;font-size: 20px; padding-top:50px;text-align: center;}
 #mainpage_con {font-family: 'Noto Sans KR', sans-serif;color: #555555;font-weight:700;line-height: 40px; font-size: 30px; padding-top:20px;text-align: center;}
 #mainpage_con span:first-child {color: #FF4D3F;}
-#mainpage_con span:nth-child(2) {color: #00BECA;}
+#mainpage_con span:nth-child(2) {color: #00BFCA;}
 #mainpage p {font-family: 'Noto Sans KR', sans-serif;color: #777777;font-weight:400;font-size: 16px;line-height: 25px; padding-top:20px;text-align: center;}
 
 
@@ -342,21 +343,21 @@ header ul li a:hover {
 #login_title {font-family: 'Inter', sans-serif;color: #c4c4c4;font-weight:500;font-size: 20px; margin-top:50px;}
 #login_con {font-family: 'Noto Sans KR', sans-serif;color: #555555;font-weight:700;line-height: 40px; font-size: 30px; padding-top:20px;}
 #login_con span:first-child {color: #FF4D3F;}
-#login_con span:nth-child(2) {color: #00BECA;}
+#login_con span:nth-child(2) {color: #00BFCA;}
 #login p {font-family: 'Noto Sans KR', sans-serif;color: #777777;font-weight:400;font-size: 16px;line-height: 25px; padding-top:20px;}
 
-#actor_v {width: 100%; height: 600px; background-color: #F7F7F7;}
+#actor_v {width: 100%; height: 600px; background-image: url('../img/actorvb.png');background-repeat: no-repeat;background-size: cover;}
 
-#actor_v_info {padding-top: 225px;margin-left: 320px;}
+#actor_v_info {padding-top: 200px;margin-left: 320px;}
 #actor_v_title {font-family: 'Inter', sans-serif;color: #FF4D3F;font-weight:500;font-size: 20px;margin-bottom: 30px;}
 #actor_v_con {font-family: 'Noto Sans KR', sans-serif;color: #555555;font-weight:700;line-height: 40px; font-size: 30px; margin-bottom:40px;}
 #actor_v p {font-family: 'Noto Sans KR', sans-serif;color: #777777;font-weight:400;font-size: 16px;line-height: 25px;}
 #actor_vp{z-index: 10;position: absolute;margin-left: 55%;margin-top: -400px;}
 #actor_vp img {width: 400px;height: auto;}
 
-.actor_e {width: 100%; height: 1900px;background-color:#F7F7F7;}
-.color-cutred {background-color: #FF4D3F;transition: background-color 0.5s ease-in-out;}
-#actor_e_info{margin-left: 60%; padding-top:800px; }
+.actor_e {width: 100%; height: 1900px;background-image: url('../img/actor_b.png');background-repeat: no-repeat;background-size: cover;}
+#actor_e_info{margin-left: 60%; position: sticky;top: 200px;padding-top: 250px;margin-bottom: 150px;}
+.fixed {position: fixed;}
 #actor_ei img:nth-child(1) {width: 300px; margin-left: 160px;margin-top: 160px;position: absolute;box-shadow:0px 0px 20px rgba(128, 128, 128, 0.4);}
 #actor_ei img:nth-child(2) {width: 300px;margin-left: 550px;margin-top: 650px;position: absolute;box-shadow:0px 0px 20px rgba(128, 128, 128, 0.4);}
 #actor_ei img:nth-child(3) {width: 300px;margin-left: 160px;margin-top: 1100px;position: absolute;box-shadow:0px 0px 20px rgba(128, 128, 128, 0.4);}
@@ -373,7 +374,7 @@ header ul li a:hover {
 #ai_image img:nth-child(2){display: inline-block;width: 450px;}
 #ai_image img:nth-child(3){display: inline-block;width: 300px;margin-left: 30px;margin-bottom: 100px;box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.2);}
 
-#audition {width: 100%; height: 900px;position: relative;background-color: #00BECA;}
+#audition {width: 100%; height: 900px;position: relative;background-color: #00BFCA;}
 .swiper-container {width: 75%;height: 90%;}
 .swiper-slide img {width: 350px;margin-left: 25%;margin-top:8%;float: left;}
 .audition_info {padding-top: 300px;float: left;margin-left: 20px;}
@@ -387,27 +388,27 @@ header ul li a:hover {
 
 
 
-#search {width: 100%;height: 1200px;overflow: hidden;}
-#search_info {padding-top: 10%;margin-left: 43%;}
+#search {width: 100%;height: 1200px;overflow: hidden;margin-left: auto;margin-right: auto;}
+#search_info {padding-top: 10%;margin-left: 48%;}
 #search_con {font-family: 'Noto Sans KR', sans-serif;color: #555555;font-weight:700;line-height: 40px; font-size: 30px; padding-top:70px;}
 #search_con span:first-child {color: #FF4D3F;}
 #search_con span:nth-child(2) {color: #00BECA;}
 #search p {font-family: 'Noto Sans KR', sans-serif;color: #777777;font-weight:400;font-size: 16px;line-height: 25px; padding-top:20px;}
-#search_image {width: 100%;height: 500px;margin: auto;}
-#search_image img:nth-child(1){display: inline-block; width: 450px;margin-right: 30px;margin-top: -300px; margin-left: 15%; position: absolute;filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.2));}
-#search_image img:nth-child(2){display: inline-block;width: 300px; margin-left: 49%;margin-top:20px;margin-left: 41%;}
-#search_image img:nth-child(3){display: inline-block;width: 300px; position: absolute;margin-top:20px;}
+#search_image {width: 1060px;height: 500px;margin: auto;}
+#search_image img:nth-child(1){display: block; width: 450px;margin-top: -300px;filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.2));float: left;}
+#search_image img:nth-child(2){display: block; width: 300px;margin-left: 10px; margin-top:20px;float: left;}
+#search_image img:nth-child(3){display: block; width: 300px; margin-top:20px;float: left;}
 
 #hashtags {width: 100%;height: 1000px;background-color: #eeeeee;}
 #hashtags_info {padding-top: 70px;}
 #hashtags_con {font-family: 'Noto Sans KR', sans-serif;color: #555555;font-weight:700;line-height: 40px; font-size: 30px; padding-top:20px;text-align: center;}
-#hashtags_con span {color: #00BECA;}
+#hashtags_con span {color:#00BFCA;}
 #hashtags_info p {font-family: 'Noto Sans KR', sans-serif;color: #777777;font-weight:400;font-size: 16px;line-height: 25px; padding-top:20px;text-align: center;}
 #wrap_tags {display:flex;width: 100%;position: absolute; z-index: 11;}
 .tags {flex: 1;font-family: 'Noto Sans KR', sans-serif;color: #bebebe;font-weight:400;font-size: 90px;line-height: 100px;margin-top: 90px;}
 .tags:first-child {margin-left: 5%;}
 .tags:last-child {display: inline-block; text-align: right;margin-right: 5%;}
-.hash_btn {color: #00BECA; text-decoration: none;}
+.hash_btn {color: #00BFCA; text-decoration: none;}
 .hash_btn:hover {color: #FF4D3F;text-decoration: none;}
 
 #phone_h { width: 100%;height: 700px;margin:0 auto;position: absolute;}
@@ -425,9 +426,9 @@ header ul li a:hover {
 #mypage_all {width: 100%; height: 450px;background-image: url(../img/my_all.png);background-repeat: no-repeat;background-size: cover;background-attachment: fixed;}
 
 #mypage_ac {width: 100%; height: 900px;position: relative;overflow: hidden;}
-#my_ac {width: 100%;height: 1000px;}
-.swiper-container1 {width: 500px;height: 90%;margin: auto;}
-.se_sl img {width: 350px;float: left;}
+#my_ac {width: 100%;height: 900px;}
+.swiper-container1 {width: 500px;height: 90%;margin:auto;}
+.se_sl img {width: 350px;float: left;filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.2));}
 .mypage_ac_info {padding-top: 25%;float: left;margin-left: 30px;}
 .mypage_ac_title {font-family: 'Inter', sans-serif;color:  #ff4c3f7a;font-weight:500;font-size: 20px;margin-bottom: 20px;}
 .mypage_ac_con {font-family: 'Noto Sans KR', sans-serif;color:  #FF4D3F;font-weight:700;line-height: 40px; font-size: 30px; margin-bottom:20px;}
@@ -442,8 +443,8 @@ header ul li a:hover {
 #mypage_pr_title {font-family: 'Inter', sans-serif;color: #00c0ca80;font-weight:500;font-size: 20px; margin-top:50px;text-align: right;}
 #mypage_pr_con {font-family: 'Noto Sans KR', sans-serif;color: #00bfca;font-weight:700;line-height: 40px; font-size: 30px; padding-top:20px;text-align: right;}
 #mypage_pr p {font-family: 'Noto Sans KR', sans-serif;color: #555555;font-weight:400;font-size: 16px;line-height: 25px; padding-top:20px;text-align: right;}
-#mypage_pr_img {margin-left: 30px; margin-top: 70px;}
-#mypage_pr_img img{width: 400px;height: auto;float: left;}
+#mypage_pr_img {margin-left: 30px; padding-top: 100px;}
+#mypage_pr_img img{width: 400px;height: auto;float: left;filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.2));}
 
 
 
@@ -452,7 +453,7 @@ header ul li a:hover {
 #ac_vid {width: 35%;margin-left: auto;margin-right: auto;padding-top: 100px;display: inline-block;text-align: left;}
 #ac_vid span {color: #FF4D3F;font-family: 'Inter', sans-serif; font-weight:500;font-size: 18px;padding-bottom: 60px;display: inline-block;}
 #pr_vid {width: 35%;margin-left: auto;margin-right: auto;padding-top: 100px;display: inline-block;text-align: left;}
-#pr_vid span {color: #00BECA;font-family: 'Inter', sans-serif; font-weight:500;font-size: 18px;padding-bottom: 60px;display: inline-block;}
+#pr_vid span {color: #00BFCA;font-family: 'Inter', sans-serif; font-weight:500;font-size: 18px;padding-bottom: 60px;display: inline-block;}
 
 #mockup {background-image: url(../img/mockup.png); width: 100%;height: 700px; background-repeat: no-repeat;background-size: cover;background-attachment: fixed;}
 
@@ -467,7 +468,7 @@ header ul li a:hover {
 }
 
 
-@media screen and (min-width:280px) and (max-width:1024px) {
+@media screen and (min-width:280px) and (max-width:475px) {
     #wrap {display: none;}
     .m-header {
         background-color: #FB4B3B;
@@ -493,10 +494,6 @@ header ul li a:hover {
         cursor: pointer;
         z-index: 5;
     }
-    /*
-        span의 너비와 높이를 설정하고 중앙정렬을 하도록 한다.
-        메뉴 바의 트랜지션 진행시간은 0.3초로 설정한다.
-    */
     .btnnav {
         position: absolute;
         width: 50%;
@@ -507,48 +504,25 @@ header ul li a:hover {
         transition-duration: 0.3s;
         background-color: #ffffff;
     }
-    /*
-        첫번째 span의 top을 30%, 마지막 span을 70%로 하면 햄버거모양의 바가 완성된다.
-    */
     .btnnav:nth-child(1){top: 30%;}
     .btnnav:last-child{top: 70%;}
-    /*
-    자바스크립트를 통해 메뉴바 버튼을 클릭했을 때! 
-    navigation이라는 class를 가진 div에 class 명을 추가 하도록 한다.
-    햄버거 바의 모양이 변화하도록 한다.
-*/
-/* 
-    첫번째 span은 45도로 회전을 하고 중앙을 유지하도록 한다. 
-*/
+    
 .active .btnnav:nth-child(1){
     background-color: #FF4D3F;
     top:50%;
     transform:translate(-50%,-50%) rotate(45deg);
     transition-duration: 0.5s;
 }
-/* 
-    두번째 span은 클릭 되었을 때 사라지도록 하여 x표시가 보이도록 한다. 
-*/
 .active .btnnav:nth-child(2){
     display:none;
     transition-duration: 0.5s;
 }
-/*
-    세번째 span 역시 첫번째 span 처럼 중앙에 오도록 하고, 왼쪽으로 45도를 회전한다.
-*/
 .active .btnnav:nth-child(3){
     background-color: #FF4D3F;
     top:50%;
     transform: translate(-50%,-50%) rotate(-45deg);
     transition-duration: 0.5s;
 }
-/*
-    자바스크립트로 class 추가 전의 nav class css다.
-    메뉴 바를 누르기 전이기 때문에 width와 height를 0으로 설정한다.
-    메뉴를 align-item과 justify-content로 중앙정렬한다.
-    직사각형으로 내려오는 것이 아닌 한쪽이 둥글게 내려오도록 border-radius를 한쪽만 설정한다.
-    트랜지션은 너비와 높이, border-radius 전환 효과로 ease-in-out를 사용한다.
-*/
 .nav {
     width:80%;
     height:100vh;
@@ -565,11 +539,6 @@ header ul li a:hover {
                 height 300ms ease-in-out 300ms,
                 right 500ms ease-in-out;
 }
-/*
-    자바스크립트로 class 추가 후의 nav class css다.
-    너비와 높이를 100%, 100vh로 주고 전과 동일하게 중앙정렬을 하도록 한다.
-    트랜지션 시간을 조절해 확 들어오는 메뉴처럼 설정한다.
-*/
 .active .nav{
     width:80%;
     height:100vh;
@@ -580,10 +549,6 @@ header ul li a:hover {
                 height 500ms ease-in-out,
                 right 500ms ease-in-out;
 }
-/*
-    메뉴 리스트 스타일을 설정하지 않고 센터로 정렬한다.
-    a태그의 데코레이션을 없애고 hover시 색이 변하도록 한다.
-*/
 .nav sidebar-menu {padding: 0;}
 .nav sidebar-menu li {
     list-style-type: none;
@@ -597,7 +562,7 @@ header ul li a:hover {
     font-weight:400;
 }
 .nav .menu li a:hover {
-    color:#00BECA;
+    color:#00BFCA;
 }
 .m-main {
     width: 100%; 
@@ -607,4 +572,167 @@ header ul li a:hover {
     width: 100%; 
     height: auto;
 }
+#m-overview{width: 100%;}
+#overview-n {width: 100%;height: auto;padding-top: 50px;padding-bottom:50px;margin-left: 30px;font-family: 'Inter', sans-serif;  color: #bbbbbb; font-weight: 600; font-size: 15px; }
+#overview-img {width: 100%; height: auto;background-image: url('../img/m-overviewb.png');background-repeat: no-repeat;background-size: 100%;}
+#overview-img img {display: block; width: 90%;height: auto;margin-left: auto;margin-right: auto;}
+.overview-txt{text-align: center;margin-top: 50px;}
+#overview-t {font-family: 'Noto Sans KR', sans-serif;color: #555555;font-weight:400;font-size: 20px;margin-bottom: 30px;}
+#overview-t span:first-child{color: #FF4D3F;font-weight:600;}
+#overview-t span:nth-child(2){color:#00BFCA;font-weight:600;}
+#overview-t span:last-child{color: #555555;font-weight:600;}
+.overview-txt p {width: 90%; font-family: 'Noto Sans KR', sans-serif;color: #555555;font-weight:300;font-size: 11px;margin-left: auto;margin-right: auto; padding-bottom: 50px;line-height: 18px;}
+
+
+#back-ac {width: 100%;height: 550px;background-image: url('../img/m-back-ac.png');background-repeat: no-repeat;background-size: cover;background-attachment: fixed;}
+#back-title {color: white;font-family: 'Inter', sans-serif; font-weight: 600; font-size: 15px; padding-top: 50px;padding-bottom:80px;padding-left: 30px;}
+#back-ac-t {color: #FF4D3F;font-family: 'Noto Sans KR', sans-serif; font-weight:600;font-size: 14px;margin-bottom: 30px;margin-left: 30px;}
+#back-ac p{width: 90%;margin-left: 30px;margin-bottom: 30px;line-height: 25px;color: #ffffff;font-family: 'Noto Sans KR', sans-serif;font-size: 16px; font-weight:500;}
+#back-ac p span{background-color: #FF4D3F;line-height: 13px;}
+
+#back-pr {width: 100%;height: 750px;background-image: url('../img/m-back-pr.png');background-repeat: no-repeat;background-size: cover;background-attachment: fixed;}
+#back-pr-t {color: #00BFCA;font-family: 'Noto Sans KR', sans-serif; font-weight:600;font-size: 14px;padding-top: 100px;margin-bottom: 30px;margin-left: 30px;}
+.Producer_back{color: white;margin-left: 30px;margin-right: 30px; margin-bottom: 100px;}
+.Producer_txt {font-family: 'Noto Sans KR', sans-serif; font-weight:500;font-size: 13px;margin-bottom: 30px;}
+
+.line{
+    height: 25px;
+    min-width: 80%;
+    margin: 0 auto 10px;
+    line-height: 25px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+    font-size: 10px;
+    color: white;
+    z-index: 1;
+    padding: 0 0 0 10px;
+    position: relative;
+}
+.line::before{
+    content: '';
+    width: 100%;
+    position: absolute;
+    left: 0;
+    height: 25px;
+    top: 0;
+    z-index: 5;
+}
+.line:first-child::after{
+    content: '';
+    background: #00bfca;
+    height: 25px;
+    transition: 2s;
+    display: block;
+    width: 100%;
+    animation: animate 1 1.5s ;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.line::after{
+    content: '';
+    background: #b0c7c8;
+    height: 25px;
+    transition: 2s;
+    display: block;
+    width: 100%;
+    animation: animate 1 1.5s ;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.line1:after{
+    max-width: 100%;
+}
+.line2:after{
+    max-width: 88%;
+}
+.line3:after{
+    max-width: 55%;
+}
+.line4:after{
+    max-width: 30%;
+}
+.line5:after{
+    max-width: 100%;
+}
+.line6:after{
+    max-width: 80%;
+}
+.line7:after{
+    max-width: 70%;
+}
+.line8:after{
+    max-width: 30%;
+}
+@keyframes animate{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 100%;
+    }
+}
+@keyframes slideInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(50%); 
+  }
+  100% {
+    opacity: 1;
+    transform: none; 
+  } 
+}
+
+#m-needs {width: 100%;height: auto;}
+#needs-title {color: #bbbbbb; font-family: 'Inter', sans-serif; font-weight: 600; font-size: 15px; padding-top: 50px;padding-left: 30px;}
+.swiper-slide img{width: 100%;margin-bottom: 40px;}
+
+#m-service {width: 100%;background-color: #F7F7F7;}
+#service-title {color: #bbbbbb; font-family: 'Inter', sans-serif; font-weight: 600; font-size: 15px; padding-top: 50px;margin-left: 30px;margin-bottom: 50px;}
+.ser-line {margin-left: 30px;margin-right: 30px;}
+.ser-line img{width: 100%;}
+.ser-line1 {margin:10px 30px;}
+.ser-line1 img{width: 100%;height:21px;}
+#ser-ac{margin:30px 30px 20px 30px;}
+#ser-ac img{width: 100%;}
+#ser-pr{margin:20px 30px auto 30px;padding-bottom: 50px;}
+#ser-pr img{width: 100%;}
+
+#m-service-n {width: 100%;height: auto;background-color: #FBFBFB;}
+#service-n-title{color: #bbbbbb; font-family: 'Inter', sans-serif; font-weight: 600; font-size: 15px; padding-top: 50px;margin-left: 30px;margin-bottom: 30px;}
+#m-service-n p{width: 100%; font-family: 'Noto Sans KR', sans-serif;color: #555555;font-weight:300;font-size: 11px;margin-left: 30px;margin-right: 30px;line-height: 18px;}
+#service-n-img {width: 100%;}
+#service-n-img img {width: 100%;padding-bottom: 10px;}
+
+#m-tnm {width: 100%;height: auto;}
+#m-tnm-c {}
+#m-tnm-title {color: #bbbbbb; font-family: 'Inter', sans-serif; font-weight: 600; font-size: 15px; padding-top: 50px;margin-left: 30px;margin-bottom: 30px;}
+#m-tnm-c p{width: 100%; font-family: 'Noto Sans KR', sans-serif;color: #555555;font-weight:300;font-size: 11px;margin-left: 30px;margin-right: 30px;line-height: 18px;}
+#s-red {width: 100%;height: 200px;margin-top:50px; background-color:#FF4D3F;}
+#s-red img {margin-left: 30px;width: auto;height: 140px; margin-top:30px;}
+#c-blue {width: 100%;height: 200px;background-color:#00bfca;}
+#c-blue img{margin-left: 30px;width: auto;height: 140px;margin-top:30px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
