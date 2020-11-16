@@ -58,3 +58,12 @@ var mySwiper2 = new Swiper('.third', {
       clickable: true,
     }
   })  
+
+  var mySwiper3 = new Swiper('.fourth', {
+    direction: 'horizontal',
+    loop: false,
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    }
+  })  
