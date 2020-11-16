@@ -470,7 +470,7 @@ header ul li a:hover {
 
 @media screen and (min-width:280px) and (max-width:475px) {
     #wrap {display: none;}
-    #m-wrap{width: 100%;}
+    #m-wrap{width: 100%;overflow-x: hidden;}
     .m-header {
         background-color: #FB4B3B;
         top: 0; 
