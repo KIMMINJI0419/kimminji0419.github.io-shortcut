@@ -28,7 +28,7 @@ $(document).ready(function(){
 
 var mySwiper = new Swiper('.first', {
     // Optional parameters
-    direction: 'vertical',
+    direction: 'horizontal',
     loop: false,
   
     // Navigation arrows
